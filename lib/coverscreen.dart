@@ -12,7 +12,7 @@ class MyCoverScreen extends StatelessWidget {
       child: Text(
         gameHasStarted ? '' : '    T A P  \n  P A R A  \nJ U G A R',
         style: TextStyle(color: Colors.white, fontSize: 25),
-      ,
-    )
+      ),
+    );
   }
 }
